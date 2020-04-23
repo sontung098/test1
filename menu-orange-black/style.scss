@@ -1,0 +1,50 @@
+body {
+	background: #CCCCCC;
+	margin: 0;
+	border: 0px solid;
+	text-align: center;
+}
+.link {
+	color: blue;
+}
+.visit {
+	color: #E5E5E5;
+	font-size: 12px;
+	font-family: Arial;
+}
+.repon {
+	color: #FFF8DC;
+	font-size: 25px;
+	font-family: Arial;
+}
+.container {
+	background: #FF6633;
+	list-style-type: none;
+	overflow: hidden;
+	width: 800px;
+	position: absolute;
+	left: 300px;
+	padding: 0;
+}
+.container>li {
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	font-family: Arial;
+	font-size: 12px;
+}
+li>a {
+	text-decoration: none; 
+	color: #FFFFFF;
+	display: block;
+}
+li>a:hover {
+	background: #444444;
+	color: white;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
